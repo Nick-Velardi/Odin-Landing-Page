@@ -2,22 +2,56 @@
   font-family: "Roboto", sans-serif;
 }
 
+.fulltop {
+  background-color: #1f2937;
+}
+
 .header {
   display: flex;
-  justify-content: space-between;
-  margin-left: 40px;
-  margin-right: 60px;
-  margin-top: 20px;
+  justify-content: space-around;
+}
+
+.mainherotext {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.topleft {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.leftsidehero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-left: 100px;
+  margin-right: 200px;
+  margin-bottom: 100px;
 }
 
 .hero {
   display: flex;
-  margin: 40px;
+  background-color: #1f2937;
+}
+
+.herosubtext {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.ourservices {
 }
 
 .navlinks {
   display: flex;
   gap: 15px;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .servicetag {
@@ -30,6 +64,10 @@
   justify-content: space-around;
 }
 
+.imagewrap {
+  border: 5px solid #555;
+}
+
 .quote {
   display: flex;
   flex-direction: column;
@@ -39,4 +77,9 @@
 .quotetag {
   display: flex;
   justify-content: flex-end;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  color: white;
 }
