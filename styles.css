@@ -9,39 +9,33 @@
 .header {
   display: flex;
   justify-content: space-around;
+  padding-top: 20px;
 }
 
 .mainherotext {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
+  width: 500px;
 }
 
 .topleft {
-  font-size: 24px;
+  font-size: 36px;
   color: #f9faf8;
-}
-
-.leftsidehero {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  padding: 10px;
-  margin-left: 100px;
-  margin-right: 200px;
-  margin-bottom: 100px;
 }
 
 .hero {
   display: flex;
   background-color: #1f2937;
+  margin: 50px;
+  justify-content: space-around;
+  padding: 20px;
 }
 
 .herosubtext {
   color: #e5e7eb;
   font-size: 18px;
+  width: 550px;
 }
 
 .ourservices {
